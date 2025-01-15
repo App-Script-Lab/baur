@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    
+    <style>
+        .abril-fatface-regular {
+            font-family: "Abril Fatface", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .navbar{
+          margin-top: 50px;
+          padding: 10px 50px 10px;
+          border: 1px solid rgb(49, 176, 49);
+          border-radius: 10px;
+        }
+
+        .whatsapp{
+          text-align: center;
+          /* background-color: #efdf00; */
+          padding: 20px;
+          border-radius: 10px;
+          background-color: rgb(246, 247, 249);
+        }
+
+        .whatsapp>img{
+          width: 20px;
+          margin-right: 10px;
+        }
+/* 
+        .whatsapp:hover{
+          background-color: white;
+          border: 1px solid #efdf00;
+          cursor: pointer;
+        } */
+
+        .request{
+          text-align: center;
+        }
+
+        .request>a{
+          text-decoration: none;
+          background-color: rgb(56, 186, 64);
+          color: white;
+          padding: 15px;
+          border-radius: 10px;
+        }
+
+        .form{
+          margin-top: 50px;
+        }
+
+        form{
+          margin-top: 20px;
+        }
+
+        .button{
+          text-align: right;
+        }
+
+        .button>button{
+          background-color: rgb(49, 176, 49);
+          border: 1px solid rgb(49, 176, 49);
+        }
+
+        .button>button:hover{
+          background-color: rgb(246, 247, 249);
+          color: black;
+          border: 1px solid rgb(49, 176, 49);
+        }
+
+        .phone>a{
+          text-decoration: none;
+          color: black;
+        }
+
+
+    </style>
+
+    <title>Baursmak</title>
+  </head>
+  <body>
+    
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand abril-fatface-regular" href="#">BaurSmak</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="phone"><img src="telephone.svg" alt=""> 
+                <a href="tel:+78142332211">+7 706 408 21 71</a>
+              </div>
+            </div>
+          </nav>
+
+          <div class="form row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+              <!-- <div class="button">
+                <p class="whatsapp"> <img src="whatsapp.png" alt="">ОФОРМИТЬ ЗАКАЗ ЧЕРЕЗ WHATSAPP</p>
+              </div> -->
+
+              <h4 class="request"><a href="https://wa.clck.bar/77064082171?text=Здравствуйте! Хочу заказать вкусные баурсаки"> Перейти в <img src="icons8-whatsapp-48.png" alt=""> Whatsapp </a> <br /><br />ИЛИ ЗАПОЛНИТЕ ФОРМУ </h4>
+              
+
+              <form action="thank-you-page.html">
+                <div class="form-floating mb-3">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="name@example.com">
+                  <label for="name">Введите ваше имя</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="text" name="phone" class="form-control" id="phone" placeholder="Password">
+                  <label for="phone">Контактый телефон</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="number" name="quantity" class="form-control" id="quantity" placeholder="Password">
+                  <label for="quantity">Сколько киллограмм (укажите в цифрах)</label>
+                </div>
+                <div class="button"> <button type="submit" class="btn btn-primary">Отправить</button> </div>
+                
+              </form>
+
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+
+          
+
+          
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <!-- <script>
+      let i = 0;
+      setInterval( ()=>{
+
+        
+
+
+        i++;
+
+        if(i > 1){
+          i = 0;
+        }
+
+      },5000 )
+    </script> -->
+  </body>
+</html>
